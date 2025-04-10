@@ -23,21 +23,6 @@ Input the `make help` command to view more available make commands
 
 ```shell
 Run for 1000ns
- ____                                             
-/ ___| _   _ _ __ ___  _ __ ___   __ _ _ __ _   _ 
-\___ \| | | | '_ ` _ \| '_ ` _ \ / _` | '__| | | |
- ___) | |_| | | | | | | | | | | | (_| | |  | |_| |
-|____/ \__,_|_| |_| |_|_| |_| |_|\__,_|_|   \__, |
-                                            |___/ 
-3-division test summary:
-  Measured period: 30ns
-  Measured high time: 15ns
-  Measured duty: 50%
-
-5-division test summary:
-  Measured period: 50ns
-  Measured high time: 25ns
-  Measured duty: 50%
 
 All tests passed!
  ____   _    ____ ____  
@@ -45,6 +30,5 @@ All tests passed!
 | |_) / _ \ \___ \___ \ 
 |  __/ ___ \ ___) |__) |
 |_| /_/   \_\____/____/ 
-top_tb.sv:165: $finish called at 1022000 (1ps)
-
+top_tb.sv:141: $finish called at 1022000 (1ps)
 ```
