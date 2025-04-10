@@ -1,6 +1,6 @@
 `timescale  1ns / 1ps
 module top (
-	input [31:0] data,
+	input wire [31:0] data,
 	output wire [5:0] result
 );
 
