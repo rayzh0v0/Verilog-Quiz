@@ -1,3 +1,5 @@
+include ../config.mk
+
 # Target executable
 TARGET = top_tb.out
 
@@ -10,7 +12,6 @@ VCD = top.vcd
 # Compiler and simulator
 COMPILER = iverilog
 VVP = vvp
-GTKWAVE = gtkwave
 
 # Enable SystemVerilog features and debug
 IVERILOG_FLAGS = -g2012 -Wall
@@ -26,7 +27,7 @@ run:
 
 # Run simulation and generate waveform
 wave: compile
-	$(GTKWAVE) $(VCD) &
+	$(WAVE_VIWER) $(VCD) &
 
 # Clean up generated files
 clean:
