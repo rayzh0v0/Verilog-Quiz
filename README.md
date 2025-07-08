@@ -6,7 +6,7 @@
 
  ## 运行环境 Run Environment
  * Icarus Verilog version 12.0 (stable)
- * GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+ * GTKWave Analyzer v3.3.116 (w)1999-2023 BSI **OR** surfer 0.4.0-dev
 
  ## 目录 Directory
  ```
